@@ -1,5 +1,5 @@
 import unittest
-from tests.hw01.myrange import myrange
+from myrange import myrange
 
 
 class TestIntegrator(unittest.TestCase):
@@ -29,4 +29,4 @@ class TestIntegrator(unittest.TestCase):
 
     def test_given_argument(self):
         self.assertRaises(TypeError, myrange())
-        self.assertRaises(TypeError, myrange())
+        self.assertRaises(TypeError, myrange(1, 2, 3, 4))
