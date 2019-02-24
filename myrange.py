@@ -26,5 +26,3 @@ def myrange(*args):
             start += step
     else:
         raise ValueError('range() arg 3 must not be zero')
-
-

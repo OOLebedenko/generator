@@ -30,7 +30,3 @@ class TestIntegrator(unittest.TestCase):
     def test_given_argument(self):
         self.assertRaises(TypeError, myrange())
         self.assertRaises(TypeError, myrange())
-
-
-
-
