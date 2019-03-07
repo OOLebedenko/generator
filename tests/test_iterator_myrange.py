@@ -1,8 +1,8 @@
 import unittest
-from iter_myrange import MyRange
+from iterator_myrange import MyRange
 
 
-class TestIntegrator(unittest.TestCase):
+class TestInterator(unittest.TestCase):
 
     def test_one_parameter(self):
         self.assertEqual(list(MyRange(4)), list(range(4)))
